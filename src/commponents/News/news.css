@@ -1,0 +1,23 @@
+.news {
+    height: 797px;
+}
+
+.news__container {
+    width: 1390px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.news__title {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 150px;
+}
+.news__content {
+    display: flex;
+    margin-top: 40px;
+}

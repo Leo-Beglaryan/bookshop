@@ -1,0 +1,53 @@
+.contact {
+    height: 645px;
+    background: #EAE9F0;
+}
+.contact__container {
+    width: 1390px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    margin: 142px 0px 0px 0px;
+    width: 664px;
+    height: 361px;
+}
+.contact__check {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.contact__title {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.contact__messages {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #727272;
+    margin: 12px 0px 0px 0px;
+}
+.contact__link {
+    margin: 27px 0px 0px 523px;
+}
+.contact__map {
+    width: 579px;
+    height: 672px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -61px 0px 0px 116px;
+}

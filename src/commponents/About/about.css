@@ -1,0 +1,17 @@
+.about {
+    height: 886px;
+}
+
+
+.about__container {
+    display: flex;
+    align-items: center;
+    height: 886px;
+    width: 1390px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.about__image {
+    position: relative;
+    z-index: 0;
+}
