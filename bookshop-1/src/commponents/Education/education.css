@@ -1,0 +1,197 @@
+.edu {
+    height: 797px;
+    width: 1920px;
+}
+
+.edu__container {
+    width: 1390px;
+    height: 797px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.edu__title {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 150px;
+}
+.edu__content {
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+.edu__link-block {
+    margin: 20px 0px 0px 1225px;
+}
+.edu__link {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #62750F;
+    background: initial;
+}
+@media screen and (max-width:1440px) {
+    .edu {
+        height: 692px;
+        width: 1440px;
+    }
+    .edu__container {
+        width: 1146px;
+        height: 692px;
+        padding: 0px 15px;
+        margin: 0px auto;
+    }
+    
+    .edu__title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 150px;
+    }
+    .edu__content {
+        margin-top: 30px;
+    }
+    .edu__link-block {
+        margin: 20px 0px 0px 1011px;
+    }
+    .edu__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .edu {
+        height: 1212px;
+        width: 1024px;
+    }
+    .edu__container {
+        width: 930px;
+        height: 1242px;
+        padding: 0px 15px;
+        margin: 0px auto;
+    }
+    
+    .edu__title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 90px;
+    }
+    .edu__content {
+        display: grid;
+        grid-template-rows:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+    }
+    .edu__link-block {
+        margin: 20px 0px 0px 1011px;
+        display: none;
+        visibility: hidden;
+    }
+    .edu__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .edu {
+        height: 980px;
+        width: 768px;
+    }
+    .edu__container {
+        width: 671px;
+        height: 980px;
+        padding: 0px 15px;
+        margin: 0px auto;
+    }
+    .edu__title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 90px;
+    }
+    .edu__content { 
+        display: grid;
+        grid-template-rows:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 40px;
+    }
+    .edu__link-block {
+        margin: 20px 0px 0px 1011px;
+        display: none;
+        visibility: hidden;
+    }
+    .edu__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:640px) {
+    .edu {
+        height: 911px;
+        width: 640px;
+    }
+    .edu__container {
+        width: 608px;
+        height: 911px;
+        padding: 0px 15px;
+        margin: 0px auto;
+    }
+    .edu__title {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 80px;
+    }
+    .edu__content { 
+        display: grid;
+        grid-template-rows:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 28px;
+        grid-column-gap: 18px;
+    }
+    .edu__link-block {
+        margin: 20px 0px 0px 1011px;
+        display: none;
+        visibility: hidden;
+    }
+    .edu__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:375px) {
+    .edu {
+        height: 952px;
+        width: 375px;
+    }
+    .edu__container {
+        width: 358px;
+        height: 952px;
+    }
+    .edu__title {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 80px;
+    }
+    .edu__content { 
+        display: grid;
+        grid-template-rows:  1fr;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        margin: 30px 0px 0px 0px;
+    }
+    .edu__link-block {
+        margin: 20px 0px 0px 1011px;
+        display: none;
+        visibility: hidden;
+    }
+    .edu__link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

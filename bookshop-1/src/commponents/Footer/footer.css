@@ -1,0 +1,329 @@
+.footer {
+    background: linear-gradient(79.66deg, #3B3955 20.16%, #000000 79%);
+    height: 452px;
+    width: 1920px;
+}
+.footer__container {
+    height: 452px;
+    width: 1390px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+} 
+.footer__content {
+    width: 1358px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer__header {
+    width: 1360px;
+    height: 47px;
+}
+.footer__title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.footer__content-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.footer__options {
+    display: flex;
+    margin: 40px 0px 0px 0px;
+}
+.footer__products {
+    width: 314px;
+    height: 219px; 
+}
+.footer__about {
+    width: 314px;
+    height: 219px;
+}
+.footer__news {
+    width: 314px;
+    height: 219px;
+}
+.footer__services {
+    width: 314px;
+    height: 219px
+}
+.footer__list {
+    display: flex;
+    flex-direction: column;
+}
+.footer__link {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 16px 0px 0px 0px;
+}
+.accordion-box {
+    display: none;
+    visibility: hidden;
+}
+.accardion {
+    width: 608px;
+    box-shadow: none;
+    margin: 15px 0px 0px 0px;
+}
+@media screen and (max-width:1440px) {
+    .footer {
+        height: 441px;
+        width: 1440px;
+    }
+    .footer__container {
+        height: 441px;
+        width: 1146px;
+    } 
+    .footer__content {
+        width: 1119px;
+        height: 306px;
+    }
+    .footer__header {
+        width: 1116px;
+        height: 47px;
+    }
+    .footer__title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .footer__content-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .footer__options {
+        display: flex;
+        margin: 40px 0px 0px 0px;
+    }
+    .footer__products {
+        width: 255px;
+        height: 219px; 
+    }
+    .footer__about {
+        width: 255px;
+        height: 219px;
+    }
+    .footer__news {
+        width: 255px;
+        height: 219px;
+    }
+    .footer__services {
+        width: 255px;
+        height: 219px
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 12px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .footer {
+        height: 408px;
+        width: 1024px;
+    }
+    .footer__container {
+        height: 408px;
+        width: 927px;
+    } 
+    .footer__content {
+        width: 888px;
+        height: 295px;
+    }
+    .footer__header {
+        width: 897px;
+        height: 36px;
+    }
+    .footer__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .footer__content-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footer__options {
+        display: flex;
+        margin: 37px 0px 0px 0px;
+    }
+    .footer__products {
+        width: 197px;
+        height: 222px; 
+    }
+    .footer__about {
+        width: 197px;
+        height: 222px; 
+    }
+    .footer__news {
+        width: 197px;
+        height: 222px; 
+    }
+    .footer__services {
+        width: 197px;
+        height: 222px; 
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 23px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer {
+        height: 354px;
+        width: 768px;
+    }
+    .footer__container {
+        height: 354px;
+        width: 671px;
+    } 
+    .footer__content {
+        width: 641px;
+        height: 262px;
+    }
+    .footer__header {
+        width: 641px;
+        height: 40px;
+    }
+    .footer__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .footer__content-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footer__options {
+        display: flex;
+        margin: 27px 0px 0px 0px;
+    }
+    .footer__products {
+        width: 144px;
+        height: 195px; 
+    }
+    .footer__about {
+        width: 144px;
+        height: 195px;
+        margin: 0px 0px 0px 26px;
+    }
+    .footer__news {
+        width: 144px;
+        height: 195px;
+        margin: 0px 0px 0px 26px;
+    }
+    .footer__services {
+        width: 144px;
+        height: 195px; 
+        margin: 0px 0px 0px 26px;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__link {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 18px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:640px) {
+    .footer {
+        height: 391px;
+        width: 640px;
+    }
+    .footer__container {
+        height: 391px;
+        width: 638px;
+    } 
+    .footer__content {
+        width: 608px;
+        height: 262px;
+    }
+    .footer__header {
+        width: 608px;
+        height: 40px;
+    }
+    .footer__title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .footer__options {
+        display: flex;
+        margin: 27px 0px 0px 0px;
+        display: none ;
+        visibility: hidden;
+    }
+    .accordion-box {
+        display: block;
+        visibility: visible;
+        background:initial;
+    }
+    .accardion {
+        width: 608px;
+        background:initial;
+        z-index:  100;
+    }
+    .decorate {
+        width: 608px;
+        height: 2px;
+        background: white;
+    }
+}
+@media screen and (max-width:375px) {
+    .footer {
+        height: 427px;
+        width: 375px;
+    }
+    .footer__container {
+        height: 427px;
+        width: 358px;
+    } 
+    .footer__content {
+        width: 328px;
+    }
+    .footer__header {
+        width: 328px;
+        height: 30px;
+    }
+    .footer__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footer__options {
+        display: flex;
+        margin: 27px 0px 0px 0px;
+        display: none ;
+        visibility: hidden;
+    }
+   
+    .decorate {
+        width: 328px;
+        height: 2px;
+        background: white;
+    }
+    .accardion {
+        width: 328px;
+    }
+}

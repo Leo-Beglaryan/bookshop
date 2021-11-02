@@ -1,0 +1,149 @@
+.card {
+    width: 430px;
+    height: 450px;
+    padding: 20px; 
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15)
+}
+.card__image {
+    width: 390px;
+    height: 211px;
+}
+.card__title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+.card__subtitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 20px 0px 0px 0px;
+}
+.card__Link {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #62750F;
+    margin: 0px 0px 0px 260px;
+    background-color: initial;
+}
+.card__content {
+    padding: 0px;
+}
+
+@media screen and (max-width:1440px) {
+    .card {
+        width: 352px;
+        height: 402px;  
+    }
+    .card__image {
+        width: 310px;
+        height: 180px;
+    }
+    .card__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card__subtitle {
+        font-size: 18px;
+        line-height: 30px;      
+    }
+    .card__Link {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0px 0px 0px 195px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .card {
+        width: 436px;
+        height: 450px;
+    }
+    .card__image {
+        width: 393.61px;
+        height: 211px;
+    }
+    .card__Link {
+        margin: 0px 0px 0px 260px;
+    }
+}
+@media screen and (max-width:768px) {
+    .card {
+        width: 310px;
+        height: 386px;
+    }
+    .card__image {
+        width: 269px;
+        height: 169px;
+    }
+    .card__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card__Link {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0px 0px 0px 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        width: 310px;
+        height: 386px;
+    }
+    .card__image {
+        width: 269px;
+        height: 169px;
+    }
+    .card__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .card__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card__Link {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0px 0px 0px 150px;
+    }
+}
+@media screen and (max-width:640px) {
+    .card {
+        width: 296px;
+        height: 385px;
+    }
+    .card__image {
+        width: 264px;
+        height: 174px;
+    }
+    .card__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .card__subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card__Link {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0px 0px 0px 147px;
+    }
+}

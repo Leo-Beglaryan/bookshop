@@ -1,0 +1,235 @@
+.about {
+    height: 886px;
+    width: 1920px;
+}
+.about__container {
+    display: flex;
+    align-items: center;
+    height: 886px;
+    width: 1390px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.about__image {
+    position: relative;
+    z-index: 0;
+    width: 780px;
+    height: 510px;
+}
+.about__image img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.about__card {
+    position: relative;
+    width: 752px;
+    height: 369px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    margin: 0px 0px 0px -172px;
+    z-index: 100;
+    padding: 50px 45px 50px 45px;
+}
+.about__title{
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.about__subtitle {
+    font-family: Cormorant Infant;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 40px 0px 0px 0px;
+}
+
+.about__button {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #62750F;
+    background-color: initial;
+    margin: 20px 0px 0px 516px;
+}
+.card__content {
+    padding: 0px;
+}
+.about__button-block {
+    width: 121px;
+    height: 30px;
+}
+
+
+@media screen and (max-width:1440px) {
+    .about {
+        height: 660px;
+        width: 1440px;
+    }
+    .about__container {
+        height: 660px;
+        width: 1155px;
+    }
+    .about__image {
+        width: 640px;
+        height: 335px;
+    }
+    .about__card {
+        width: 640px;
+        height: 274px;  
+        padding: 24px 0px 0px 40px;
+    }
+    .about__button-block {
+        width: 130px;
+        height: 24px;
+    }
+    .about__button {
+        margin: 20px 0px 0px 415px;
+    }
+    .card__content {
+        padding: 0px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .about {
+        height: 607px;
+        width: 1024px;
+    }
+    .about__container {
+        height: 607px;
+        width: 897px;
+    }
+    .about__image {
+        width: 545px;
+        height: 365px;  
+    }
+    .about__card {
+        width: 551px;
+        height: 294px;
+        padding: 35px 0px 0px 40px;
+    }
+    .about__button-block {
+        width: 112px;
+        height: 24px;
+    }
+    .about__button {
+        margin: 20px 0px 0px 322px;
+    }
+    .about__subtitle {
+        margin: 16px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:768px) {
+    .about {
+        height: 637px;
+        width: 768px;
+    }
+    .about__container {
+        height: 637px;
+        width: 641px;
+    }
+    .about__image {
+        width: 553px;
+        height: 403px; 
+    }
+    .about__card {
+        width: 473px;
+        height: 316px;
+        padding: 34px 0px 0px 40px;
+        margin: 0px 0px 0px -375px;
+    }
+    .about__button-block {
+        width: 112px;
+        height: 24px;
+    }
+    .about__button {
+        margin: 20px 0px 0px 270px;
+    }
+    .about__subtitle {
+        margin: 20px 0px 0px 0px;
+    }
+}
+@media screen and (max-width:640px) {
+    .about {
+        height: 439px;
+        width: 640px;
+    }
+    .about__container {
+        height: 439px;
+        width: 608px;
+    }
+    .about__image {
+        width: 452px;
+        height: 300px;
+    }
+    .about__card {
+        width: 452px;
+        height: 258px;
+        padding: 32px 0px 0px 20px;
+        margin: 0px 0px 0px -293px;
+    }
+    .about__button {
+        margin: 20px 0px 0px 280px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about__subtitle {
+        margin: 20px 0px 0px 0px;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .about__title {
+        font-size: 24px;
+        line-height: 29px;
+        
+    }
+}
+@media screen and (max-width:375px) {
+    .about {
+        height: 408px;
+        width: 375px;
+        margin: 124px 0px 0px 0px;
+    }
+    .about__container {
+        height: 408px;
+        width: 358px;
+    }
+    .about__image {
+        width: 297px;
+        height: 307px;
+    }
+    .about__card {
+        width: 287px;
+        height: 297px;
+        padding: 24px 0px 0px 13px;
+        margin: 100px 0px 0px -260px;
+    }
+    .about__button {
+        margin: 20px 0px 0px 150px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .about__subtitle {
+        margin: 20px 0px 0px 0px;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .about__title {
+        font-size: 24px;
+        line-height: 29px;
+        
+    }
+}

@@ -1,0 +1,137 @@
+.our-products {
+    height: 1266px;
+    width: 1920px;
+}
+.our-products__container {
+    width: 1390px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+.our-products__title {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin-top: 150px;
+}
+.our-products__cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 50px ;
+    grid-column-gap: 32px;
+}
+
+@media screen and (max-width:1440px) {
+    .our-products {
+        height: 1113px;
+        width: 1440px;
+    }
+    .our-products__container {
+        width: 1155px;
+        margin: 0px auto;
+    }
+    .our-products__title {
+        margin-top: 130px;
+    }
+    .our-products__cards {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 50px ;
+        grid-column-gap: 34px ;
+        
+    }
+}
+@media screen and (max-width:1024px) {
+    .our-products {
+        height: 1113px;
+        width: 1024px;
+    }
+    .our-products__container {
+        width: 895px;
+        margin: 0px auto;
+    }
+    .our-products__title {
+        margin-top: 90px;
+    }
+    .our-products__cards {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 40px ;
+        grid-column-gap: 23px;
+    }
+}
+@media screen and (max-width:768px) {
+    .our-products {
+        height: 986px;
+        width: 768px;
+    }
+    .our-products__container {
+        width: 641px;
+        margin: 0px auto;
+    }
+    .our-products__title {
+        margin-top: 90px;
+    }
+    .our-products__cards {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 40px ;
+        grid-column-gap: 22px;
+    }
+}
+@media screen and (max-width:640px) {
+    .our-products {
+        height: 942px;
+        width: 640px;
+    }
+    .our-products__container {
+        width: 608px;
+        margin: 0px auto;
+    }
+    .our-products__title {
+        margin-top: 80px;
+        font-size: 24px;
+        line-height: 29px;      
+    }
+    .our-products__cards {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:375px) {
+    .our-products {
+        height: 1736px;
+        width:375px;
+    }
+    .our-products__container {
+        width: 328px;
+        margin: 0px auto;
+    }
+    .our-products__title {
+        margin-top: 70px;
+        font-size: 24px;
+        line-height: 29px;      
+    }
+    .our-products__cards {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr ;
+        grid-row-gap: 30px ;
+    }
+    .our-products__cards .none:nth-child(3),
+    .our-products__cards .none:nth-child(4) {
+        display: none;
+        visibility: hidden;
+    }
+}
